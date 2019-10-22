@@ -1,0 +1,26 @@
+	<!DOCTYPE html>
+	<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title> Primer JavaScript</title>
+		<script>
+			function suma(){
+				/*DOM = Document Object Model /*documento que tiene acceso a todo los de la pagina*/
+				var ope1= document.getElementById('op1').value;
+				var ope2= document.getElementById('op2').value;
+				document.getElementById('resultado').innerHTML= 
+				eval(ope1+"+"+ope2);
+
+				//parseInt(ope1)+ parseInt(ope2);
+			}
+		</script>
+	</head>
+	<body>
+		<input type="text" name="" id="op1">
+		<input type="text" name="" id="op2">
+		<span id="resultado"></span>
+		<button onClick="suma ();">
+			Suma
+		</button>
+	</body>
+	</html>
