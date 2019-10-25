@@ -1,0 +1,41 @@
+html{
+	height: 100%;
+}
+body{
+	font-size: 16px;
+	margin:0px auto;
+	max-width: 1024px;
+
+}
+button{
+	border-radius: 5px;
+}
+
+#persona{
+	
+	height: 400px;
+}
+#a1s1{
+	width: 25%;
+	height: 400px;
+	vertical-align: top;
+	display: inline-block;
+}
+#a2s1{
+	width: 35%;
+	height: 400px;
+	padding-top: 10%;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+	background: 
+
+}
+#a3s1{
+	width: 35%;
+	height: 400px;
+	padding-top: 10%;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+}
